@@ -2,6 +2,7 @@
 
 int main()
 {
-  std::cout << "Second Project main function" << std::endl;
+  auto INT = sizeof(int);
+  std::cout << sizeof(INT) << std::endl;
   std::cin.get();
 }

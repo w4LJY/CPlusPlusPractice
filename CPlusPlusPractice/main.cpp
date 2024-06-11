@@ -1,8 +1,8 @@
 #include <iostream>
+#include "Log.h"
 
 int main() 
 {
-  std::cout << "Test" << std::endl;
-  std::cout << "Test2" << std::endl;
+  Log("OK Google");
   std::cin.get();
 }
